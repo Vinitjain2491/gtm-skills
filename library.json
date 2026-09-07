@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "gtm-skills",
+  "version": "1.0.0",
+  "description": "Portable go-to-market skills for LLMs and AI agents.",
+  "format": "agent-skills",
+  "entrypoint": "AGENTS.md",
+  "skills": [
+    { "name": "gtm-strategy", "path": "skills/gtm-strategy", "category": "direction" },
+    { "name": "market-research", "path": "skills/market-research", "category": "intelligence" },
+    { "name": "icp-and-segmentation", "path": "skills/icp-and-segmentation", "category": "direction" },
+    { "name": "positioning-and-messaging", "path": "skills/positioning-and-messaging", "category": "direction" },
+    { "name": "competitive-intelligence", "path": "skills/competitive-intelligence", "category": "intelligence" },
+    { "name": "pricing-and-packaging", "path": "skills/pricing-and-packaging", "category": "offer" },
+    { "name": "product-launch", "path": "skills/product-launch", "category": "offer" },
+    { "name": "demand-generation", "path": "skills/demand-generation", "category": "acquisition" },
+    { "name": "content-and-seo", "path": "skills/content-and-seo", "category": "acquisition" },
+    { "name": "sales-enablement", "path": "skills/sales-enablement", "category": "revenue" },
+    { "name": "lifecycle-and-retention", "path": "skills/lifecycle-and-retention", "category": "revenue" },
+    { "name": "gtm-analytics", "path": "skills/gtm-analytics", "category": "measurement" }
+  ]
+}

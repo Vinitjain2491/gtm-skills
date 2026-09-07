@@ -1,0 +1,11 @@
+{
+  "name": "gtm-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portable go-to-market skills for LLMs and AI agents",
+  "license": "MIT",
+  "keywords": ["agent-skills", "gtm", "go-to-market", "marketing", "llm"],
+  "scripts": {
+    "validate": "node scripts/validate-skills.mjs"
+  }
+}
