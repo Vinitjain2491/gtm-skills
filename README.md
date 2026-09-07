@@ -29,7 +29,7 @@ The workflow and selection guidance are in [`AGENTS.md`](AGENTS.md). The full ma
 Clone or download this repository, then copy or link the `skills/` folders into your agent's skills directory. Keep each skill folder intact—`SKILL.md` is the entry point and optional references belong beside it.
 
 ```bash
-git clone https://github.com/YOUR-ORG/gtm-skills.git
+git clone https://github.com/Vinitjain2491/gtm-skills.git
 ```
 
 For Codex, a convenient local location is `~/.codex/skills/`. Other platforms can use the same folder layout or load a selected `SKILL.md` directly.
